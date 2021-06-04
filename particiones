@@ -1,0 +1,13 @@
+sudo fdisk -l
+Disk /dev/sda: 223,57 GiB, 240057409536 bytes, 468862128 sectors
+Disk model: KINGSTON SA400S3
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x9f6fb6d4
+
+Device     Boot    Start       End   Sectors   Size Id Type
+/dev/sda1  *        2048  58593279  58591232  27,9G 83 Linux
+/dev/sda2       58593280  62498815   3905536   1,9G 82 Linux swap / Solaris
+/dev/sda3       62498816 468860927 406362112 193,8G 83 Linux
